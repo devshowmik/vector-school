@@ -10,16 +10,32 @@
     max-width: 800px;
     width: 100%;
 }
+.top-banner .carousel-item:after {
+    display:block;
+    width:100%;
+    height:100%;
+    background:#000;
+    position:absolute;
+    top:0;
+    left:0;
+    content:'';
+    opacity:.3;
+    z-index:1;
+}
 .feedback .carousel-control-prev {
 	justify-content: start;
 }
 .feedback .carousel-control-next {
 	justify-content: end;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon {
+.feedback .carousel-control-next-icon, .feedback .carousel-control-prev-icon {
 	width: 3rem;
 	height: 3rem;
 	background-size: 57%;
+}
+
+.carousel-caption.text-white {
+    z-index:2;
 }
 @media screen and (min-width:768px) {
     .carousel-caption {
