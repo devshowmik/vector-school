@@ -1,0 +1,38 @@
+.w-350{
+    max-width: 350px;
+    width: 100%;
+}
+.w-600{
+    max-width: 600px;
+    width: 100%;
+}
+.w-800{
+    max-width: 800px;
+    width: 100%;
+}
+.feedback .carousel-control-prev {
+	justify-content: start;
+}
+.feedback .carousel-control-next {
+	justify-content: end;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	width: 3rem;
+	height: 3rem;
+	background-size: 57%;
+}
+@media screen and (min-width:768px) {
+    .carousel-caption {
+        top: 30%;
+        transform: translateY(9%);
+    }
+}
+@media screen and (max-width:550px) {
+    .carousel-caption p{
+        display: none;
+    }
+    .carousel-caption .btn{
+        padding: 10px 20px !important;
+        font-size: 14px !important;
+    }
+}

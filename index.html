@@ -13,6 +13,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header class="p-3">
@@ -55,8 +56,8 @@
               <input class="form-control" type="search" placeholder="Search Courses" aria-label="Search Courses" />
             </form>
             <div class="text-end d-md-inline-block d-sm-inline-block d-inline-block mt-3 mt-lg-0 mt-sm-0">
-              <button class="btn btn-outline-success">Login</button>
-              <button class="btn btn-success">Register</button>
+              <button class="btn btn-outline-primary">Login</button>
+              <button class="btn btn-primary bg-gradient">Register</button>
             </div>
           </div>
         </nav>
@@ -118,11 +119,13 @@
     </div>
     <!-- Courses Section -->
     <div class="courses container my-5">
-      <h2 class="display-5 fw-bold text-capitalize text-center">Discover Our Popular Courses</h2>
-      <p class="text-capitalize text-center m-auto">
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at
-        its layout.
-      </p>
+      <div class="text-center w-600 m-auto">
+        <h2 class="display-5 fw-bold text-capitalize">Discover Our Popular Courses</h2>
+        <p class="text-capitalize">
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+          its layout.
+        </p>
+      </div>
       <div class="row row-cols-1 row-cols-lg-2 mt-5">
         <div class="col">
           <div class="card mb-3">
@@ -376,11 +379,14 @@
     </div>
     <!-- Successfull Students -->
     <div class="s-students container py-5 my-5">
-      <h2 class="display-5 fw-bold text-capitalize text-dark">Meet Our Successfull Students</h2>
-      <p>
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at
-        its layout.
-      </p>
+      <div class="w-600">
+        <h2 class="display-5 fw-bold text-capitalize text-dark">Meet Our Successfull Students</h2>
+        <p>
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+          its layout.
+        </p>
+      </div>
+
       <div class="row py-4">
         <div class="col-md-3">
           <div class="card">
@@ -431,7 +437,7 @@
     </div>
     <!-- Students Feedback -->
     <div class="feedback container py-5 my-5">
-      <div class="text-center">
+      <div class="text-center w-600 m-auto">
         <h2 class="display-5 fw-bold text-capitalize text-dark">Some Students Feedback</h2>
         <p>
           It is a long established fact that a reader will be distracted by the readable content of a page when looking
@@ -441,8 +447,8 @@
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="row">
-              <div class="col-md-6">
+            <div class="row justify-content-evenly">
+              <div class="col-md-5 border-1 border rounded-2">
                 <div class="testimonial my-4">
                   <div class="row testimonial-header">
                     <div class="col-6">
@@ -482,7 +488,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-5 border-1 border rounded-2">
                 <div class="testimonial my-4">
                   <div class="row testimonial-header">
                     <div class="col-6">
@@ -525,8 +531,8 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="row">
-              <div class="col-md-6">
+            <div class="row justify-content-evenly">
+              <div class="col-md-5 border-1 border rounded-2">
                 <div class="testimonial my-4">
                   <div class="row testimonial-header">
                     <div class="col-6">
@@ -566,7 +572,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-5 border-1 border rounded-2">
                 <div class="testimonial my-4">
                   <div class="row testimonial-header">
                     <div class="col-6">
@@ -630,7 +636,7 @@
       </div>
     </div>
     <!-- Frequently Asked Questions -->
-    <div class="feq container py-5 my-5">
+    <div class="feq container py-5 my-5  w-800 m-auto">
       <div class="text-center">
         <h2 class="display-5 fw-bold text-capitalize text-dark">Frequently Asked Questions</h2>
         <p>
@@ -761,7 +767,7 @@ For example, <span><</span>header<span>></span>, <span><</span>footer<span>></sp
       </ul>
     </div>
     <footer class="py-5 mt-5 bg-dark text-white">
-      <div class="container text-center">
+      <div class="container text-center w-350">
         <h3>Vector School</h3>
         <p>Office 41, Zawaya Buildin, Ghala Muscat, 
           Sultanate of Oman</p>
@@ -776,6 +782,7 @@ For example, <span><</span>header<span>></span>, <span><</span>footer<span>></sp
               <li><a class="text-white" href="#"><i class="bi bi-facebook"></i></a></li>
               <li><a class="text-white" href="#"><i class="bi bi-twitter"></i></a></li>
               <li><a class="text-white" href="#"><i class="bi bi-instagram"></i></a></li>
+              <li><a class="text-white" href="#"><i class="bi bi-linkedin"></i></a></li>
               <li><a class="text-white" href="#"><i class="bi bi-github"></i></a></li>
              </ul>
           </nav>
